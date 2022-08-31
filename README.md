@@ -52,13 +52,10 @@ So let's fix that
 
 First we'll fix copy/paste
 
-- On mac `pbcopy` should be builtin
-
-- On Ubuntu
+- On Arch Linux
 
   ```sh
-  sudo apt install xsel # for X11
-  sudo apt install wl-clipboard # for wayland
+  sudo pacman -S xsel # for X11
   ```
 
 Next we need to install python support (node is optional)
@@ -80,7 +77,7 @@ We will also need `ripgrep` for Telescope to work:
 - Ripgrep
 
   ```sh
-  sudo apt install ripgrep
+  sudo pacman -S ripgrep
   ```
 ---
 
@@ -157,6 +154,8 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
+- [vim-latex-live-preview](https://github.com/xuhdev/vim-latex-live-preview)
+- [vimwiki](https://github.com/vimwiki/vimwiki)
 
 ---
 

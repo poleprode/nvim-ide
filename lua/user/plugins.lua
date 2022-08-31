@@ -96,6 +96,12 @@ return packer.startup(function(use)
   use { "rcarriga/nvim-dap-ui", commit = "d76d6594374fb54abf2d94d6a320f3fd6e9bb2f7" }
   use { "ravenxrz/DAPInstall.nvim", commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" }
 
+  -- Vim-wiki
+  use { "vimwiki/vimwiki", commit = "619f04f89861c58e5a6415a4f83847752928252d" }
+
+  -- LaTeX previewing
+  use { "xuhdev/vim-latex-live-preview", commit = "afdf3f4778119f0bfacb07629d0155d58eb5562a"  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

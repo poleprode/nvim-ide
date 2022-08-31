@@ -5,13 +5,8 @@ end
 
 local servers = {
   "sumneko_lua",
-  "cssls",
-  "html",
-  "tsserver",
-  "pyright",
   "bashls",
-  "jsonls",
-  "yamlls",
+  "ltex",
 }
 
 lsp_installer.setup()
